@@ -1,0 +1,57 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "assistent für minecraft",
+      "intents": [
+        {
+          "name": "LogoutIntent",
+          "samples": [
+            "von niederösterreich radelt abmelden"
+          ]
+        },
+        {
+          "name": "LoginIntent",
+          "slots":[
+            {
+              "name": "Name",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples":[
+            "melde {Name} bei niederösterreich radelt an"
+          ]
+        },
+        {
+          "name": "DistanceIntent",
+          "samples":[
+            "meine Kilometer"
+          ]
+        },
+        {
+          "name": "AddDistanceIntent",
+          "slots":[
+            {
+              "name": "Distance",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples":[
+            "heute bin ich {Distance} kilometer geradelt"
+          ]
+        },
+        {
+          "name": "AMAZON.RepeatIntent"
+        },
+        {
+          "name": "AMAZON.HelpIntent"
+        },
+        {
+          "name": "AMAZON.StopIntent"
+        },
+        {
+          "name": "AMAZON.CancelIntent"
+        }
+      ]
+    }
+  }
+}

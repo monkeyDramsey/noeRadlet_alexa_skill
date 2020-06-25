@@ -1,0 +1,54 @@
+#=====================================================================================================================
+#     ______    _ ____  ______        __  _
+#    / __/ /__ (_) / / /_  __/__ ___ / /_(_)__  ___ _
+#   _\ \/  '_// / / /   / / / -_|_-</ __/ / _ \/ _ `/
+#  /___/_/\_\/_/_/_/   /_/  \__/___/\__/_/_//_/\_, /
+#                                             /___/
+#
+# Created by Bespoken
+# Learn more at https://read.bespoken.io/unit-testing/getting-started/
+#
+# Skill name: "Minecraft Assistant" by Amazon
+# Test scope: LaunchRequest, AMAZON.StopIntent
+# Description: General test suite for some intents
+#=====================================================================================================================
+
+---
+configuration:
+  locale: de-DE
+
+---
+- test: Launch request, no further interaction.
+- LaunchRequest: # LaunchRequest is not an utterance but a request type and reserved word
+  - response.outputSpeech.ssml: "*" # instead of a wildecard, we could specify a specific utterance
+
+
+---
+- test: AMAZON.StopIntent
+- LaunchRequest:
+- AMAZON.StopIntent: Auf Wiedersehen!
+
+
+---
+- test: RecipeIntent test case for evaluating the propmt
+- LaunchRequest:
+  - prompt: "Willkommen bei Assistent für Minecraft. Du kannst*"
+  
+
+---
+# testing an intent in a more elaborated notation
+- test: RecipeIntent test case for Feuerwerksrakete
+- RecipeIntent:
+  - slots:
+      Item: Feuerwerksrakete
+      
+---
+# testing an intent in a short shorter notation, 
+- test: RecipeIntent test case for Schneegolem
+- RecipeIntent Item=Schneegolem: Schneegolem
+
+
+  
+
+
+

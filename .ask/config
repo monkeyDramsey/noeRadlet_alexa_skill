@@ -1,0 +1,35 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.f997163a-c888-4448-a50a-75d44cabf6a4",
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "36cf236dd815cfde73d5fc252a54be70"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "fac91ec4c2eca9b6f00d11f65d229c4f"
+          },
+          "de-DE": {
+            "eTag": "56844d3a28df8b8fd17a1a0fa9a33789"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:eu-west-1:940067427876:function:ask-assistent-fuer-minecraft",
+            "awsRegion": "eu-west-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-assistent-fuer-minecraft",
+            "handler": "index.handler",
+            "revisionId": "421f8cce-174f-4287-ae73-2e44d0ecb6af",
+            "runtime": "nodejs10.x"
+          }
+        ]
+      }
+    }
+  }
+}

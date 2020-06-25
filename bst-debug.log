@@ -1,0 +1,250 @@
+2020-03-25T11:03:23.919Z error: bst-test            Error using bst-test on Node: v12.13.1
+2020-03-25T11:03:23.921Z error: bst-test            YAMLException: bad indentation of a mapping entry at line 34, column 33:
+        - response.outputSpeech.ssml: "*"
+                                    ^
+    at generateError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:191:10)
+    at throwError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:197:9)
+    at readBlockMapping (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1126:7)
+    at composeNode (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1378:12)
+    at readBlockSequence (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:973:5)
+    at composeNode (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1377:12)
+    at readDocument (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1538:3)
+    at loadDocuments (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1594:5)
+    at Object.loadAll (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1602:19)
+    at TestParser.parse (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\test\TestParser.js:138:30)
+2020-03-25T11:09:02.456Z error: bst-test            Error using bst-test on Node: v12.13.1
+2020-03-25T11:09:02.459Z error: bst-test            YAMLException: bad indentation of a sequence entry at line 35, column 3:
+      - response.outputSpeech.ssml: "*" 
+      ^
+    at generateError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:191:10)
+    at throwError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:197:9)
+    at readBlockSequence (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:980:7)
+    at composeNode (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1377:12)
+    at readDocument (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1538:3)
+    at loadDocuments (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1594:5)
+    at Object.loadAll (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1602:19)
+    at TestParser.parse (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\test\TestParser.js:138:30)
+    at TestRunner.parseContents (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:580:21)
+    at C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:78:39
+2020-03-25T11:11:19.143Z error: bst-test            Error using bst-test on Node: v12.13.1
+2020-03-25T11:11:19.146Z error: bst-test            YAMLException: bad indentation of a sequence entry at line 36, column 3:
+      - response.outputSpeech.ssml: "*" 
+      ^
+    at generateError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:191:10)
+    at throwError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:197:9)
+    at readBlockSequence (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:980:7)
+    at composeNode (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1377:12)
+    at readDocument (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1538:3)
+    at loadDocuments (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1594:5)
+    at Object.loadAll (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1602:19)
+    at TestParser.parse (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\test\TestParser.js:138:30)
+    at TestRunner.parseContents (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:580:21)
+    at C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:78:39
+2020-03-25T11:12:13.372Z error: bst-test            Error using bst-test on Node: v12.13.1
+2020-03-25T11:12:13.375Z error: bst-test            YAMLException: bad indentation of a mapping entry at line 36, column 33:
+        - response.outputSpeech.ssml: "*" 
+                                    ^
+    at generateError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:191:10)
+    at throwError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:197:9)
+    at readBlockMapping (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1126:7)
+    at composeNode (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1378:12)
+    at readBlockSequence (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:973:5)
+    at composeNode (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1377:12)
+    at readDocument (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1538:3)
+    at loadDocuments (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1594:5)
+    at Object.loadAll (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1602:19)
+    at TestParser.parse (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\test\TestParser.js:138:30)
+2020-03-25T11:15:23.079Z error: bst-test            Error using bst-test on Node: v12.13.1
+2020-03-25T11:15:23.082Z error: bst-test            YAMLException: bad indentation of a sequence entry at line 36, column 3:
+      - response.outputSpeech.ssml: "*" 
+      ^
+    at generateError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:191:10)
+    at throwError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:197:9)
+    at readBlockSequence (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:980:7)
+    at composeNode (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1377:12)
+    at readDocument (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1538:3)
+    at loadDocuments (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1594:5)
+    at Object.loadAll (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1602:19)
+    at TestParser.parse (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\test\TestParser.js:138:30)
+    at TestRunner.parseContents (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:580:21)
+    at C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:78:39
+2020-03-25T11:16:50.108Z error: bst-test            Error using bst-test on Node: v12.13.1
+2020-03-25T11:16:50.111Z error: bst-test            YAMLException: bad indentation of a sequence entry at line 36, column 3:
+      - response.outputSpeech.ssml: "*" 
+      ^
+    at generateError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:191:10)
+    at throwError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:197:9)
+    at readBlockSequence (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:980:7)
+    at composeNode (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1377:12)
+    at readDocument (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1538:3)
+    at loadDocuments (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1594:5)
+    at Object.loadAll (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1602:19)
+    at TestParser.parse (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\test\TestParser.js:138:30)
+    at TestRunner.parseContents (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:580:21)
+    at C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:78:39
+2020-03-25T12:46:23.099Z error: bst-test            Error using bst-test on Node: v12.13.1
+2020-03-25T12:46:23.102Z error: bst-test            YAMLException: bad indentation of a sequence entry at line 37, column 3:
+      - response.outputSpeech.ssml: "*" 
+      ^
+    at generateError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:191:10)
+    at throwError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:197:9)
+    at readBlockSequence (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:980:7)
+    at composeNode (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1377:12)
+    at readDocument (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1538:3)
+    at loadDocuments (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1594:5)
+    at Object.loadAll (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1602:19)
+    at TestParser.parse (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\test\TestParser.js:138:30)
+    at TestRunner.parseContents (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:580:21)
+    at C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:78:39
+2020-03-25T12:48:22.343Z error: bst-test            Error using bst-test on Node: v12.13.1
+2020-03-25T12:48:22.346Z error: bst-test            YAMLException: bad indentation of a sequence entry at line 37, column 3:
+      - response.outputSpeech.ssml: "*" 
+      ^
+    at generateError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:191:10)
+    at throwError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:197:9)
+    at readBlockSequence (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:980:7)
+    at composeNode (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1377:12)
+    at readDocument (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1538:3)
+    at loadDocuments (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1594:5)
+    at Object.loadAll (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1602:19)
+    at TestParser.parse (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\test\TestParser.js:138:30)
+    at TestRunner.parseContents (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:580:21)
+    at C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:78:39
+2020-03-25T12:49:56.117Z error: bst-test            Error using bst-test on Node: v12.13.1
+2020-03-25T12:49:56.121Z error: bst-test            YAMLException: bad indentation of a sequence entry at line 37, column 3:
+      - request.session.attributes.myK ... 
+      ^
+    at generateError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:191:10)
+    at throwError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:197:9)
+    at readBlockSequence (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:980:7)
+    at composeNode (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1377:12)
+    at readDocument (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1538:3)
+    at loadDocuments (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1594:5)
+    at Object.loadAll (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1602:19)
+    at TestParser.parse (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\test\TestParser.js:138:30)
+    at TestRunner.parseContents (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:580:21)
+    at C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:78:39
+2020-03-25T12:50:27.771Z error: bst-test            Error using bst-test on Node: v12.13.1
+2020-03-25T12:50:27.774Z error: bst-test            YAMLException: bad indentation of a sequence entry at line 37, column 3:
+      - request.session.attributes.myK ... 
+      ^
+    at generateError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:191:10)
+    at throwError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:197:9)
+    at readBlockSequence (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:980:7)
+    at composeNode (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1377:12)
+    at readDocument (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1538:3)
+    at loadDocuments (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1594:5)
+    at Object.loadAll (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1602:19)
+    at TestParser.parse (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\test\TestParser.js:138:30)
+    at TestRunner.parseContents (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:580:21)
+    at C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:78:39
+2020-03-25T12:51:13.375Z error: bst-test            Error using bst-test on Node: v12.13.1
+2020-03-25T12:51:13.378Z error: bst-test            YAMLException: bad indentation of a sequence entry at line 37, column 3:
+      - intent: RecipeIntent
+      ^
+    at generateError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:191:10)
+    at throwError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:197:9)
+    at readBlockSequence (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:980:7)
+    at composeNode (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1377:12)
+    at readDocument (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1538:3)
+    at loadDocuments (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1594:5)
+    at Object.loadAll (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1602:19)
+    at TestParser.parse (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\test\TestParser.js:138:30)
+    at TestRunner.parseContents (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:580:21)
+    at C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:78:39
+2020-03-25T12:52:38.845Z error: bst-test            Error using bst-test on Node: v12.13.1
+2020-03-25T12:52:38.847Z error: bst-test            Error: Trying to add undefined slot to intent: SlotA
+    at SkillRequest.Object.<anonymous>.SkillRequest.slot (C:\Public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\node_modules\virtual-alexa\lib\src\core\SkillRequest.js:166:19)
+    at SkillRequest.Object.<anonymous>.SkillRequest.slots (C:\Public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\node_modules\virtual-alexa\lib\src\core\SkillRequest.js:184:22)
+    at VirtualAlexa.Object.<anonymous>.VirtualAlexa.intend (C:\Public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\node_modules\virtual-alexa\lib\src\core\VirtualAlexa.js:62:83)
+    at VirtualAlexaInvoker.<anonymous> (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\VirtualAlexaInvoker.js:184:51)
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\VirtualAlexaInvoker.js:1:192)
+    at _next (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\VirtualAlexaInvoker.js:3:194)
+    at C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\VirtualAlexaInvoker.js:3:364
+    at new Promise (<anonymous>)
+    at VirtualAlexaInvoker.<anonymous> (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\VirtualAlexaInvoker.js:3:97)
+2020-03-25T12:54:53.951Z error: bst-test            Error using bst-test on Node: v12.13.1
+2020-03-25T12:54:53.955Z error: bst-test            YAMLException: bad indentation of a sequence entry at line 37, column 3:
+      -intent: RecipeIntent
+      ^
+    at generateError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:191:10)
+    at throwError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:197:9)
+    at readBlockSequence (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:980:7)
+    at composeNode (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1377:12)
+    at readDocument (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1538:3)
+    at loadDocuments (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1594:5)
+    at Object.loadAll (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1602:19)
+    at TestParser.parse (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\test\TestParser.js:138:30)
+    at TestRunner.parseContents (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:580:21)
+    at C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:78:39
+2020-03-25T12:55:14.046Z error: bst-test            Error using bst-test on Node: v12.13.1
+2020-03-25T12:55:14.049Z error: bst-test            YAMLException: bad indentation of a sequence entry at line 37, column 3:
+      - intent: RecipeIntent
+      ^
+    at generateError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:191:10)
+    at throwError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:197:9)
+    at readBlockSequence (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:980:7)
+    at composeNode (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1377:12)
+    at readDocument (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1538:3)
+    at loadDocuments (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1594:5)
+    at Object.loadAll (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1602:19)
+    at TestParser.parse (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\test\TestParser.js:138:30)
+    at TestRunner.parseContents (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:580:21)
+    at C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:78:39
+2020-03-25T13:08:53.447Z error: bst-test            Error using bst-test on Node: v12.13.1
+2020-03-25T13:08:53.449Z error: bst-test            YAMLException: bad indentation of a sequence entry at line 43, column 4:
+       - intent: RecipeIntent 
+       ^
+    at generateError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:191:10)
+    at throwError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:197:9)
+    at readBlockSequence (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:980:7)
+    at composeNode (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1377:12)
+    at readDocument (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1538:3)
+    at loadDocuments (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1594:5)
+    at Object.loadAll (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1602:19)
+    at TestParser.parse (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\test\TestParser.js:138:30)
+    at TestRunner.parseContents (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:580:21)
+    at C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:78:39
+2020-03-25T13:12:58.919Z error: bst-test            Error using bst-test on Node: v12.13.1
+2020-03-25T13:12:58.922Z error: bst-test            YAMLException: bad indentation of a sequence entry at line 41, column 4:
+       - intent: RecipeIntent 
+       ^
+    at generateError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:191:10)
+    at throwError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:197:9)
+    at readBlockSequence (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:980:7)
+    at composeNode (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1377:12)
+    at readDocument (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1538:3)
+    at loadDocuments (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1594:5)
+    at Object.loadAll (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1602:19)
+    at TestParser.parse (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\test\TestParser.js:138:30)
+    at TestRunner.parseContents (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:580:21)
+    at C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:78:39
+2020-03-25T13:14:08.698Z error: bst-test            Error using bst-test on Node: v12.13.1
+2020-03-25T13:14:08.700Z error: bst-test            YAMLException: bad indentation of a sequence entry at line 41, column 3:
+      - intent: RecipeIntent 
+      ^
+    at generateError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:191:10)
+    at throwError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:197:9)
+    at readBlockSequence (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:980:7)
+    at composeNode (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1377:12)
+    at readDocument (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1538:3)
+    at loadDocuments (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1594:5)
+    at Object.loadAll (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1602:19)
+    at TestParser.parse (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\test\TestParser.js:138:30)
+    at TestRunner.parseContents (C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:580:21)
+    at C:\public\npm\node_modules\bespoken-tools\node_modules\skill-testing-ml\dist\lib\runner\TestRunner.js:78:39
+2020-03-25T13:19:54.821Z error: bst-test            Error using bst-test on Node: v12.13.1
+2020-03-25T13:19:54.823Z error: bst-test            YAMLException: incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 43, column 29:
+          Item: Feuerwerksrakete: 
+                                ^
+    at generateError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:191:10)
+    at throwError (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:197:9)
+    at readBlockMapping (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1045:9)
+    at composeNode (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1378:12)
+    at readBlockMapping (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1107:11)
+    at composeNode (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1378:12)
+    at readBlockSequence (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:973:5)
+    at composeNode (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1409:45)
+    at readBlockMapping (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1107:11)
+    at composeNode (C:\Public\npm\node_modules\bespoken-tools\node_modules\js-yaml-bespoken\lib\js-yaml\loader.js:1378:12)
